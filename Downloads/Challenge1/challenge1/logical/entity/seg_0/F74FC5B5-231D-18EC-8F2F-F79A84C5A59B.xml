@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F74FC5B5-231D-18EC-8F2F-F79A84C5A59B" name="CARTAO_CREDITO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 17:09:41 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cartaoCredito" id="F19719A8-0649-2E00-8B9A-0D695E927AFB">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:11:20 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="86E5DEF5-F794-CBAA-AECC-ADBE811020BE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:24:25 UTC</createdTime>
+<generatorID>942FA06F-DB22-E3C3-01D2-C6F1E91DB998</generatorID>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<referedAttribute>36113212-7A6E-8E53-8103-6A0F4F3F815F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA2E14C3-55F1-59A6-8101-B555568C271B" name="CARTAO_CREDITO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:22:59 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F19719A8-0649-2E00-8B9A-0D695E927AFB</attributeRef>
+<attributeRef>86E5DEF5-F794-CBAA-AECC-ADBE811020BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

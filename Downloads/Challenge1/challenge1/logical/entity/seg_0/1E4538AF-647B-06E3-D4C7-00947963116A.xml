@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E4538AF-647B-06E3-D4C7-00947963116A" name="POUPANCA">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:42:13 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contaPoupanca" id="57157EC5-CD50-935F-C935-FA8D483C4983">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:12:16 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="40D02F61-A2F7-9672-787B-F57F381B461C">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:23:31 UTC</createdTime>
+<generatorID>AD857EF8-0183-1282-F384-9D8EFD4D1C94</generatorID>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<referedAttribute>36113212-7A6E-8E53-8103-6A0F4F3F815F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1637336D-0997-9447-810A-EC753645149B" name="POUPANCA PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:12:24 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57157EC5-CD50-935F-C935-FA8D483C4983</attributeRef>
+<attributeRef>40D02F61-A2F7-9672-787B-F57F381B461C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

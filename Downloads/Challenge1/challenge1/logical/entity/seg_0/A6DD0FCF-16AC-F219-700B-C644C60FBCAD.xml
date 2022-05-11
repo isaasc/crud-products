@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6DD0FCF-16AC-F219-700B-C644C60FBCAD" name="ESTADO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:33:55 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UF" id="F540E2A6-DA58-74CB-3BCF-FAC2DD3C2595">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:34:03 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_estado" id="D54F9059-143D-ED86-C4FB-08FFD65CEF2D">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:34:35 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEC8514C-FD2F-7D00-A47C-000C9EA3EED7" name="ESTADO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:38:05 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F540E2A6-DA58-74CB-3BCF-FAC2DD3C2595</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71E1383C-188D-6274-6ECC-99849B14C87F" name="CIDADE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:32:55 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cidade" id="DAE37CB7-6143-E046-77D7-70F46DF6A6E1">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:33:02 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="A35D64D4-3203-BC16-F731-0EF72D7974E9">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:38:06 UTC</createdTime>
+<generatorID>C132CAEE-0690-3738-F5DE-627AF6FB438F</generatorID>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<referedAttribute>F540E2A6-DA58-74CB-3BCF-FAC2DD3C2595</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cidade" id="7AFB7DFB-3A7F-7D2A-3B02-4C341C293D4F">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:33:32 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0134C452-9D7D-151D-7FE1-F12B5B0CBE80" name="CIDADE PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:33:09 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DAE37CB7-6143-E046-77D7-70F46DF6A6E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

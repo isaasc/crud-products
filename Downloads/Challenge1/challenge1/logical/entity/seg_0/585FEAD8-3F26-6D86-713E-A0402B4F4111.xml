@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="585FEAD8-3F26-6D86-713E-A0402B4F4111" name="EMPRESTIMO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:10:48 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_emprestimo" id="BF999DAD-3E39-E8B6-44BE-C93382D6E16B">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:10:54 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="6FD83A3B-A917-9703-B5E5-9EC631678B88">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:23:39 UTC</createdTime>
+<generatorID>A4587CDB-5E91-4C73-AC0F-3FE4CC3880BD</generatorID>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<referedAttribute>36113212-7A6E-8E53-8103-6A0F4F3F815F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="14D95895-5BF3-DBB8-06D1-7AD607297316" name="EMPRESTIMO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:11:08 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF999DAD-3E39-E8B6-44BE-C93382D6E16B</attributeRef>
+<attributeRef>6FD83A3B-A917-9703-B5E5-9EC631678B88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="269C1E1B-5B48-C043-B350-312FA8E5D3C3" name="CONTRATO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:19:19 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contrato" id="7469418A-D20B-2863-0D6B-03171395DFD4">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:19:31 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vigencia" id="68D4DAA8-4C61-C499-FCC5-DD91D05F2B5B">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:19:46 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_contrato" id="96B453A3-64DC-51D2-9B59-F02AF7033BD9">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:20:03 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="3E54B647-68B7-F6E8-B20F-272FDB4BA6BD">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:26:39 UTC</createdTime>
+<generatorID>9600DC9F-E362-999B-3BDE-D90B73F86148</generatorID>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<referedAttribute>36113212-7A6E-8E53-8103-6A0F4F3F815F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="7EBBBF8E-5FC6-3558-9413-5164DEABA977">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 21:27:28 UTC</createdTime>
+<generatorID>8B8E6BA8-F0EF-0389-3074-76CC49177429</generatorID>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<referedAttribute>80F9B243-A29C-A906-AA7A-9E08E6D415D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DEAF649-EA24-C551-4A51-A82158DA9DA8" name="CONTRATO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-11 18:19:44 UTC</createdTime>
+<ownerDesignName>challenge1</ownerDesignName>
+<engineerTo>
+<item key="52159636-8B80-9F28-76E6-B8F32C6556F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7469418A-D20B-2863-0D6B-03171395DFD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
