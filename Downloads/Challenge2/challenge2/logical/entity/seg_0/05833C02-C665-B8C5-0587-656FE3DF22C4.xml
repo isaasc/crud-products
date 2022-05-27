@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05833C02-C665-B8C5-0587-656FE3DF22C4" name="BAIRRO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:32:50 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_bairro" id="CC3276AF-3B1A-7E7F-C8A3-43BB532AD910">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:32:58 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_municipio" id="860BF549-E004-16BA-FA66-795F86BFBB18">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:35:08 UTC</createdTime>
+<generatorID>4E0384AA-E1B8-E480-F6C0-6C75F35FBF36</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<referedAttribute>F38DA10F-37DF-40BE-8C5B-62D84F40681E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="8B6E3F99-42F0-38DC-A230-492888E09C3E">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:33:16 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="390B6F88-ADC2-551F-1793-0B7C8F996C1A" name="BAIRRO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:33:13 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="false"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC3276AF-3B1A-7E7F-C8A3-43BB532AD910</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

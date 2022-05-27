@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="challenge2" id="97AC45EE-7912-914B-5DF7-12D42683FB2C" version="3.5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:04:20 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97AC45EE-7912-914B-5DF7-12D42683FB2C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="826FCED5-BD86-F11B-808C-0074B6606113">
+<designStoragePath>C:\Users\isabe\Downloads\Challenge1\challenge1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

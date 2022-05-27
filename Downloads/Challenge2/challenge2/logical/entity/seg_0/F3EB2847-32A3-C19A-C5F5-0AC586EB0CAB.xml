@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3EB2847-32A3-C19A-C5F5-0AC586EB0CAB" name="CARTAO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<importedID>F74FC5B5-231D-18EC-8F2F-F79A84C5A59B</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cartao" id="B6D0D1CB-4AA9-AD33-A43D-007FCD1F032A">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<importedID>F19719A8-0649-2E00-8B9A-0D695E927AFB</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="635A9811-A591-2099-9F30-F4637C8A477D">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<generatorID>A3D2722C-23D8-C06C-93E9-AA34AE3ED3C5</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<importedID>86E5DEF5-F794-CBAA-AECC-ADBE811020BE</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<referedAttribute>D493FF44-0362-E101-3F60-A378AB2731EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF40EC70-1C66-CA52-1D8D-98BBEAFCDE3B" name="CARTAO_CREDITO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>EA2E14C3-55F1-59A6-8101-B555568C271B</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="false"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6D0D1CB-4AA9-AD33-A43D-007FCD1F032A</attributeRef>
+<attributeRef>635A9811-A591-2099-9F30-F4637C8A477D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

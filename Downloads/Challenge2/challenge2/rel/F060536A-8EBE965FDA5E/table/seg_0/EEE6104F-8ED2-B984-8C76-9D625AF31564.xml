@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEE6104F-8ED2-B984-8C76-9D625AF31564" name="CLIENTE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>E6086DD5-73A6-84C2-F8CE-B78ADFE7DB99</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="057AE32F-5917-41D7-F45B-FC68F4C0E790">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>129B5FE1-CD15-4B8D-B86A-1E92788A2BBA</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="2C1E02E5-948C-712F-8AE7-FDB4A9B40A70">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>29AF40C8-D5F5-AB2B-6B46-7C4C5A814D7D</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE_id_tel" id="392C2CE6-C557-5CF9-15AB-BB49C1920912">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>EBE292B4-AB5A-C0E5-DC7C-90F115A26148</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38F87222-DCD8-B606-8C3D-A9BF15D7CA16" referredColumn="6187DF44-018B-F5DB-17E0-8AFC47BBE808"/>
+</associations>
+</Column>
+<Column name="nome" id="A06C368E-19F2-F28C-A6CD-092E6DA1A310">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>A6D5C54E-8D4B-CB9B-D108-15F837BBC552</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="089941EB-8292-6AC4-93D3-E9B561A14423">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>28380886-DEAC-9BE7-8666-A2A45071E45E</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_mae" id="23BBF532-D165-69AA-E841-59A7936977DC">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>5C8DC4C0-690F-4F4E-262F-79EF16056E06</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="D8EEC839-6D34-53ED-09EA-C69582DAA948">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>10FE5ADB-AD50-B6C1-C134-7398BC8C1CF6</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rg" id="C37AFDC2-1754-E5A3-55BB-99EC8EFC6FE2">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>07B8F55B-C76F-E116-713E-1D9B6F690A03</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nmr_conta" id="8BD91B8E-C0DA-01FD-2E59-2DB3E1C58994">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>155BDBBB-5F24-106D-2B12-FE94F4FD329C</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_social" id="2EEE81EA-57B1-10BB-BDA2-1F83B63441F4">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>6737DC45-9EC2-F4AD-0CAD-E946129F5C93</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_CLIENTE_id_endereco" id="2A94EACE-7451-DE32-C0B8-EEAA466971E3">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>B7E1EFF0-7DAB-5B34-F69D-72ACC99F3497</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C959A8F-43D9-F8A5-3CE4-C8D70DD1F06E" referredColumn="211F17CA-366E-C537-78D5-E8353957A098"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B12728BC-3121-AF20-8189-2CF2EFF7DAAB" name="CLIENTE_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>4E2FC9DB-857A-8EE1-C290-02A12D16CD59</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="057AE32F-5917-41D7-F45B-FC68F4C0E790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B77548C-45E3-C40A-F15E-107EE394EC8E" name="CLIENTE_cpf_UN">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>8412F6BF-A82B-7F2D-A293-40403C2C4E38</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C1E02E5-948C-712F-8AE7-FDB4A9B40A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9505CFDA-C645-DE9A-3C40-442A1B4B4B33" name="CLIENTE__IDX">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6CEF035D-0EF5-7C1C-2FDF-9127C91D721E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2A94EACE-7451-DE32-C0B8-EEAA466971E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0C68313-1188-6603-7F75-F8091C03DDC2" name="CLIENTE_TELEFONE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>36994378-A243-419A-133C-7E304C4110AF</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="392C2CE6-C557-5CF9-15AB-BB49C1920912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4876D660-D93B-8077-6AE5-557DF5039DF8" name="CLIENTE_ENDERECO_CLIENTE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>6CEF035D-0EF5-7C1C-2FDF-9127C91D721E</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A94EACE-7451-DE32-C0B8-EEAA466971E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

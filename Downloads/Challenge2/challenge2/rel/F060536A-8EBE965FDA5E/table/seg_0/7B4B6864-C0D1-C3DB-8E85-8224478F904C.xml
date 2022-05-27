@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B4B6864-C0D1-C3DB-8E85-8224478F904C" name="FINANCIAMENTO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>724ABC66-C1DD-7699-0DC4-7098D7C2BE6A</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_financiamento" id="6CA7A8BE-2838-DB47-A9C0-A8D745679C21">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>7A4A74D8-4F3A-6388-D67D-51DFFD070F6E</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUTO_id_produto" id="D55610C1-763F-C0A5-34EF-8E2256A175DE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>147C207F-0CA3-82E7-8FEA-050E8A00BFBA</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F27DC933-E15E-36E3-A38C-92D88D724ADA" referredColumn="55A038C2-D6E2-5C49-306A-45A17EAE1D7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BACD4236-1DCD-DACA-5452-27FF38DE0CF8" name="FINANCIAMENTO_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>B11A6660-60A7-7901-173A-3F379B4F47E0</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA7A8BE-2838-DB47-A9C0-A8D745679C21"/>
+<colUsage columnID="D55610C1-763F-C0A5-34EF-8E2256A175DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00DDAAC2-8B7D-F190-36E7-086DE5802C77" name="FINANCIAMENTO_PRODUTO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>E9CC2DC4-5284-07CC-5BE8-4A85247432BE</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D55610C1-763F-C0A5-34EF-8E2256A175DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

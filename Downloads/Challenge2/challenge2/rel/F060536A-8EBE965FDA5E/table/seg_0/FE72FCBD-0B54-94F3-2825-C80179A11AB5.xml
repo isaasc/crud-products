@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE72FCBD-0B54-94F3-2825-C80179A11AB5" name="SEGURO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>61F9645E-4CF6-82DC-F9EF-DBE4C568940A</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seguro" id="CFE482FC-7BFF-DE56-3F28-1FD5E7243DAB">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>B095DC11-330C-0C00-7F74-5FC6BF6342BA</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUTO_id_produto" id="3D0734F6-D940-EF6C-5339-9D7F8555F72B">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>0F8C420E-884D-CE03-4E67-6857358FC415</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="438B794C-EE42-DE03-E454-3CA4228B48E0" referredColumn="55A038C2-D6E2-5C49-306A-45A17EAE1D7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABC6547A-C0A3-C945-D63A-6A96E9FD8DD6" name="SEGURO_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>DD44A561-ABC0-5988-B678-FEC5F06325AB</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE482FC-7BFF-DE56-3F28-1FD5E7243DAB"/>
+<colUsage columnID="3D0734F6-D940-EF6C-5339-9D7F8555F72B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E6F0A02-E347-2EF2-E092-C7FB9B8A708B" name="SEGURO_PRODUTO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>E08B4FBA-84E2-8962-146D-D8C032AE8115</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0734F6-D940-EF6C-5339-9D7F8555F72B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

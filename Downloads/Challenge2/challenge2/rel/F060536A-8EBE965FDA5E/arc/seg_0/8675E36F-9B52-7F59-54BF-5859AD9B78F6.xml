@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="8675E36F-9B52-7F59-54BF-5859AD9B78F6" name="Arc_3">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>55769626-5DBD-BA34-44B0-E6992DC164CE</table>
+<fkeys>
+<fkeyID>F27DC933-E15E-36E3-A38C-92D88D724ADA</fkeyID>
+<fkeyID>7C9003F6-D8DA-9D7F-9694-9AF2DE4CBCFB</fkeyID>
+<fkeyID>438B794C-EE42-DE03-E454-3CA4228B48E0</fkeyID>
+<fkeyID>A750DE61-0BEF-6E01-5482-8BC7D761EE79</fkeyID>
+<fkeyID>8C6E046A-D329-106C-CB3A-DB399FD2D683</fkeyID>
+</fkeys>
+</FKArc>

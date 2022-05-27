@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="EB0DB12F-167F-8733-9325-D4013D441FB6" name="Arc_3">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:47:40 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<entity>B91E787B-8FF5-CE1C-8F56-4BBC5FA07E61</entity>
+<relations>
+<relationID>E9CC2DC4-5284-07CC-5BE8-4A85247432BE</relationID>
+<relationID>A3D2722C-23D8-C06C-93E9-AA34AE3ED3C5</relationID>
+<relationID>E08B4FBA-84E2-8962-146D-D8C032AE8115</relationID>
+<relationID>0241835B-4C86-7E84-A184-A90CE8723EBA</relationID>
+<relationID>96066E04-3C85-0FF0-CAF4-4D6FD6156E1F</relationID>
+</relations>
+</Arc>

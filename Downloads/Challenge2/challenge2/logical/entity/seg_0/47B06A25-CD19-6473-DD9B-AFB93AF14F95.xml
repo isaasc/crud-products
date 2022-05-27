@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47B06A25-CD19-6473-DD9B-AFB93AF14F95" name="CONSIGNADO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:06:59 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<importedID>1E4538AF-647B-06E3-D4C7-00947963116A</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consignado" id="95C3167B-5656-37DD-11DF-BA2A125A0B5B">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<importedID>57157EC5-CD50-935F-C935-FA8D483C4983</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="241702EB-46E7-81F1-14BD-1FA063E56819">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<generatorID>0241835B-4C86-7E84-A184-A90CE8723EBA</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<importedID>40D02F61-A2F7-9672-787B-F57F381B461C</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="true"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<referedAttribute>D493FF44-0362-E101-3F60-A378AB2731EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38A98855-648A-C9A6-9705-CFF37359F705" name="POUPANCA PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:07:00 UTC</createdTime>
+<ownerDesignName>challenge2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>1637336D-0997-9447-810A-EC753645149B</importedID>
+<engineerTo>
+<item key="F060536A-48BE-0F82-7A29-8EBE965FDA5E" value="false"/>
+<item key="9B6C9144-64F7-8FD3-9A91-6C18306125B1" value="true"/>
+<item key="85A4DB71-0BBE-1B36-65DB-DBE49106DDEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95C3167B-5656-37DD-11DF-BA2A125A0B5B</attributeRef>
+<attributeRef>241702EB-46E7-81F1-14BD-1FA063E56819</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

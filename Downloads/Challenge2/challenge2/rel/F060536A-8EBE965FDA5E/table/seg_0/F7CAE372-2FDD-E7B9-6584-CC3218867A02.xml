@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7CAE372-2FDD-E7B9-6584-CC3218867A02" name="CIDADE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>C25D6028-E470-2629-202F-4B41A4319426</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_municipio" id="B20AC5ED-7279-CCA8-C790-6ED91A50E861">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>F38DA10F-37DF-40BE-8C5B-62D84F40681E</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_UF" id="4BDB2715-2864-C7B0-A29D-B206F192F810">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>8F58A7C7-6867-3CA1-B2DC-1EC65554AD05</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FEF3558-5325-0066-F974-785A74D8796E" referredColumn="C40F06BB-7713-13EE-D74F-26BC2306507C"/>
+</associations>
+</Column>
+<Column name="nm_municipio" id="F13CF602-F3AC-F659-EAD4-3557A9BD7673">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>E81A5FDC-7FFF-A125-1B4F-E7D4C45C329A</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5791FB8D-238A-5A98-33F1-AF106D7E64C3" name="CIDADE_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>0BA38EF7-BE0F-7670-FACA-071FCDAC8651</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B20AC5ED-7279-CCA8-C790-6ED91A50E861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B6A7E1D-CE64-56E0-6B57-E9AA42F948FD" name="CIDADE_ESTADO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-05-27 21:57:14 UTC</createdTime>
+<generatorID>CCE29C7F-1E34-DF37-2EEB-93778B6572C4</generatorID>
+<ownerDesignName>challenge2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BDB2715-2864-C7B0-A29D-B206F192F810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
