@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDCAF8B5-CA19-93BA-1357-B5677BCBCBF6" containerWithKeyObject="22F0C06E-0C9A-FE97-34E7-84FE782ADFDC" localFKIndex="5A291B8D-F1D3-E95F-1113-FECD94886B38" name="ITENS_VENDA_VENDEDOR_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:37:49 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<referredTableLongName>VENDEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57D3C680-02FD-F52E-2527-48A09E943621</referredTableID>
+<keyObject>69C4B3D0-1910-EA66-4C6B-8E2FE2EF77DB</keyObject>
+<referredKeyID>69C4B3D0-1910-EA66-4C6B-8E2FE2EF77DB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_vendedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81F03397-782F-D38D-A5CD-5B3F129AE7DB" containerWithKeyObject="92134272-7E2D-0562-B0DE-3BCC9637E418" localFKIndex="CEF87AAE-F41C-D9A1-86A7-61465B7A52DC" name="PRODUTO_STATUS_PRODUTO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:16:20 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<referredTableLongName>STATUS_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEE9AE46-23B8-6D30-FD3F-00FE3C59F8D1</referredTableID>
+<keyObject>6A403C67-17D0-F7C4-2C7A-5EEFDDD7E137</keyObject>
+<referredKeyID>6A403C67-17D0-F7C4-2C7A-5EEFDDD7E137</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

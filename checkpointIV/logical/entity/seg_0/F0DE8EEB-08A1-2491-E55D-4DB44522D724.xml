@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0DE8EEB-08A1-2491-E55D-4DB44522D724" name="ESTOQUE PRODUTO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>02A5B928-DDED-0D79-645D-25EDFBCA8EA0</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id loja" id="04879727-D7A0-68C5-B2ED-4DB257A0EF90">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>34EB5D79-002F-F985-9C95-EAC1CB388BA2</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<referedAttribute>52D5B6EC-E553-9905-5127-0BE80CF0FDC2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt estoque" id="B429E21B-21F2-786D-E8AF-6D37DEB7A42A">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>6E8DCE18-42BC-D8E3-7B5D-6A47C9F1C072</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUTO id produto" id="E31ADFF1-6C0E-9228-CF8C-E37C62674CDB">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>5DD9D445-4A03-9EB4-38E9-EC4AD9CB42E1</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<referedAttribute>86E4354E-9A8C-14D5-1D4F-6974B5A36D6E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DC853D9-6BF7-E6DD-F7F7-3CC7D748AA94" name="ESTOQUE PRODUTO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>8B0AD2E2-7BCD-19FC-30FC-5544D822E450</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04879727-D7A0-68C5-B2ED-4DB257A0EF90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

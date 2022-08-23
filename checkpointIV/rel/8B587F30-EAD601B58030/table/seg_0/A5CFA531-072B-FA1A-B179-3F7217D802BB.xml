@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5CFA531-072B-FA1A-B179-3F7217D802BB" name="TIPO_ANIMAL">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 13:57:17 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo" id="A2F76855-7B88-9398-A16E-2BFDD6BE1391">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 13:57:48 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo" id="1556EAE1-71CF-4831-9075-DA05D5144135">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 13:57:48 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8812921-CDFC-F282-A0C9-237FCDEC13D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9AEA772-0715-6F52-852B-5992BF2B8431" name="TIPO_ANIMAL_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 13:57:48 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F76855-7B88-9398-A16E-2BFDD6BE1391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

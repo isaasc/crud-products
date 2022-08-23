@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="415DAEBB-243B-EFF3-D561-7B8989F2E8FB" name="PF">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>DA431C14-E223-3490-D5B7-BB21F6624AA3</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="7DEC6F9B-1DDD-3EF8-68D3-6F575D5A5C76">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>77927191-41D7-ABB5-8353-F628F27ECECB</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>432D43A1-FAE0-FB1E-1420-D29E4B1F5003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt nasc" id="82B11173-227B-9A19-6086-6EBDB02387DE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>EC6CF4A0-E346-D021-7D70-E44DDB0C8047</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>36DFFEF6-E4D4-3FB1-BBD9-052C1F379717</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id cliente" id="7F42B180-E1E4-45E4-7FB4-87E37973092E">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:26:46 UTC</createdTime>
+<generatorID>4150F357-42B6-4036-DB1F-0FE0EA357CF0</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<referedAttribute>A3737C70-BDA7-A019-A8D5-3DD038DC184B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F700DC90-C671-4FC4-1733-C16492024D71" name="PF PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>05E0F2CF-7804-4367-0540-A7775933135F</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DEC6F9B-1DDD-3EF8-68D3-6F575D5A5C76</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8B7104DD-7E87-7FF7-AAEA-30D22516681A" name="UK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:31:23 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<newElementsIDs>7DEC6F9B-1DDD-3EF8-68D3-6F575D5A5C76</newElementsIDs>
+<usedAttributes>
+<attributeRef>7DEC6F9B-1DDD-3EF8-68D3-6F575D5A5C76</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

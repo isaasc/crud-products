@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="522FF23F-50D4-0FFB-637F-CEC4F039F070" name="Arc_2">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:27:52 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>2AC4C3D4-EB9D-7191-C469-1020BB7277CA</table>
+<fkeys>
+<fkeyID>CC9F04EC-B5ED-8F82-48E0-46900FCB9612</fkeyID>
+<fkeyID>436B19CC-065B-E35F-808C-603EF6769CD8</fkeyID>
+</fkeys>
+</FKArc>

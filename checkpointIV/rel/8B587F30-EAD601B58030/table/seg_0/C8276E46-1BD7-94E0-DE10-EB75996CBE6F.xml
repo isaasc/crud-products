@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8276E46-1BD7-94E0-DE10-EB75996CBE6F" name="UNIDADE_PRODUTO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:14:27 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_unidade" id="4BF6D1D1-D764-3C07-88B6-4DCB765741F6">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:14:56 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_unidade" id="6C9A6296-31E6-6DE2-3FE9-DB0BE60D0A5F">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:14:56 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E69C391C-5B1B-71C2-48E0-ECF828124461</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95B66BC2-D2DD-0090-7C0A-4340507AB735" name="UNIDADE_PRODUTO_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:14:56 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF6D1D1-D764-3C07-88B6-4DCB765741F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

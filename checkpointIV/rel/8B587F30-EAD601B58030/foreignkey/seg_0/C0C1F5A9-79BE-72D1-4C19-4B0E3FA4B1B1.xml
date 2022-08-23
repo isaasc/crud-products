@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0C1F5A9-79BE-72D1-4C19-4B0E3FA4B1B1" containerWithKeyObject="A25394A7-F12A-8F72-1DDC-EB3BB604494C" localFKIndex="EF7129C1-C0FC-F7F3-2E74-3306CEAD99E1" name="DEVOLUCAO_PRODUTOS_DEVOLUCAO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:55:08 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<referredTableLongName>DEVOLUCAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45AA6614-DF64-990A-9694-D264D37CC0D3</referredTableID>
+<keyObject>EF170504-0290-25D5-6AD7-E638965BF28D</keyObject>
+<referredKeyID>EF170504-0290-25D5-6AD7-E638965BF28D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_devolucao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

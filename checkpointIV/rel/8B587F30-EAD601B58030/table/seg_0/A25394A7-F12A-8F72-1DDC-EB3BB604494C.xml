@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A25394A7-F12A-8F72-1DDC-EB3BB604494C" name="DEVOLUCAO_PRODUTOS">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:54:31 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITENS_VENDA_PRODUTO_id_produto" id="C6342DBF-104E-D85F-01FF-532CB4A2D478">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:11:37 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="097866EE-5CC7-8E7C-A6AF-34A59B903D62" referredColumn="23EAA865-F87F-6CD0-9EDF-F8F9756D70E4"/>
+</associations>
+</Column>
+<Column name="DEVOLUCAO_id_devolucao" id="B1319760-65BD-AA06-E644-EA4D61C3F0B8">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:55:08 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0C1F5A9-79BE-72D1-4C19-4B0E3FA4B1B1" referredColumn="0B125225-C2D3-46A9-5243-B8AD4511CCD8"/>
+</associations>
+</Column>
+<Column name="ITENS_VENDA_VENDA_id_venda" id="1D1EA79D-CEC8-2041-42E7-2165A888FAB7">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:11:37 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="097866EE-5CC7-8E7C-A6AF-34A59B903D62" referredColumn="003FBE93-44CD-CE7C-1006-70DA539BF21D"/>
+</associations>
+</Column>
+<Column name="qtd_devolucao" id="5BD3D870-A321-AA02-5E6D-573B3DFC09C1">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:54:51 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B42B67-026A-2025-1DAF-B24E7115D42A" name="DEVOLUCAO_PRODUTOS_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:55:18 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1319760-65BD-AA06-E644-EA4D61C3F0B8"/>
+<colUsage columnID="C6342DBF-104E-D85F-01FF-532CB4A2D478"/>
+<colUsage columnID="1D1EA79D-CEC8-2041-42E7-2165A888FAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF7129C1-C0FC-F7F3-2E74-3306CEAD99E1" name="DEVOLUCAO_PRODUTOS_DEVOLUCAO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:55:08 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1319760-65BD-AA06-E644-EA4D61C3F0B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2C63212-4450-099C-9961-A6C618883A44" name="DEVOLUCAO_PRODUTOS_ITENS_VENDA_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:11:37 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1EA79D-CEC8-2041-42E7-2165A888FAB7"/>
+<colUsage columnID="C6342DBF-104E-D85F-01FF-532CB4A2D478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

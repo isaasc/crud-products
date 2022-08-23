@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTOQUE_PRODUTO_LOJA_FK" directorySegmentName="seg_0" id="34EB5D79-002F-F985-9C95-EAC1CB388BA2">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>E5E8B371-417A-A6BA-2BA3-BA3886463B1F</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<sourcePk>EC6F599F-F7CE-752B-083A-9687F277378D</sourcePk>
+<dominantRole>A7400E6B-AD8D-C459-AF9E-5F35C50B9241</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A7400E6B-AD8D-C459-AF9E-5F35C50B9241</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F0DE8EEB-08A1-2491-E55D-4DB44522D724</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

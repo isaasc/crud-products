@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_CLIENTE_FK" directorySegmentName="seg_0" id="76E94E2B-BADB-A5B1-C3FD-9AFBB289BBF5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>C298D2BB-9BCC-21CA-CC8E-A2EBD60DB3FF</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<sourcePk>312D9C9E-626F-AB29-FC5A-C386DB1BE836</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DA983CCD-D24E-090B-B95A-E2C80F6D0504</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>340E7602-7A35-75FC-A2CB-5259B2E760CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

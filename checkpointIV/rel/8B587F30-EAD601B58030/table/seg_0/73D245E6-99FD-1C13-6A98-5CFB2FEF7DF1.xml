@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73D245E6-99FD-1C13-6A98-5CFB2FEF7DF1" name="PJ">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:02:04 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cnpj" id="513B5E37-E436-1959-C296-6D0895F854F9">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:02:22 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>84E10B56-0F02-E4C6-D7FC-177782A4A66E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pj_id" id="D3CC3E80-EC18-76DA-5F78-ADBDF6C59CB4">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:06:35 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_id_cliente" id="27C3258F-E062-6C81-2DD8-AE8353215881">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:27:52 UTC</createdTime>
+<generatorID>78ED35BF-88CE-6B91-93A9-CC46AA3DC7ED</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="436B19CC-065B-E35F-808C-603EF6769CD8" referredColumn="B05C3FFE-DDBE-8AE2-563A-3844F1282C86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1DED13B-8D12-9168-CB04-0FF29A91CC43" name="PJ_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 14:06:35 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3CC3E80-EC18-76DA-5F78-ADBDF6C59CB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EFA7353-10C3-38D2-0321-CC438A03BC96" name="PJ__IDX">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:27:52 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B4DE5A0-003A-24C0-FF8B-08174B9BE11E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="27C3258F-E062-6C81-2DD8-AE8353215881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="305D7B14-5292-F3FF-C0FE-F6D3CBFFECD1" name="PJ_CLIENTE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:27:52 UTC</createdTime>
+<generatorID>4B4DE5A0-003A-24C0-FF8B-08174B9BE11E</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27C3258F-E062-6C81-2DD8-AE8353215881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

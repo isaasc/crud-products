@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUTO_UNIDADE_PRODUTO_FK" directorySegmentName="seg_0" id="2D1D1C39-103E-E8A1-08A9-9BCFA5783DA5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>701D9139-9411-302A-BB8F-5A6AE39A0A78</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<sourcePk>83496185-98F1-EFA0-A0C0-D64B29648D86</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A53AC14-CAA4-5497-0FED-CAD8D0E79598</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8212D066-14E5-988A-D473-D6533C245423</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

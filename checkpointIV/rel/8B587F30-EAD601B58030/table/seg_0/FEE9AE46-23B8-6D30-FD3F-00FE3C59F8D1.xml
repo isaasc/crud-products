@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEE9AE46-23B8-6D30-FD3F-00FE3C59F8D1" name="STATUS_PRODUTO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:15:35 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_status" id="68BD5A7D-3804-7B54-B1AE-5743839B38C5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:16:09 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC43BB6C-03E7-E1B4-AFCF-F60E2667A1B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_status" id="2C1634FD-A109-0280-0228-655EE735BD91">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:16:09 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A403C67-17D0-F7C4-2C7A-5EEFDDD7E137" name="STATUS_PRODUTO_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:16:09 UTC</createdTime>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68BD5A7D-3804-7B54-B1AE-5743839B38C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RACA_ANIMAL_TIPO_ANIMAL_FK" directorySegmentName="seg_0" id="A7961186-AE28-30AF-20D3-E14F07A1059B">
+<createdBy>isabe</createdBy>
+<createdTime>2022-08-23 15:25:01 UTC</createdTime>
+<generatorID>00014391-7FB8-F8FD-A16A-4DA3A1D110EF</generatorID>
+<ownerDesignName>checkpointIV</ownerDesignName>
+<engineerTo>
+<item key="8B587F30-7229-BE1F-2067-EAD601B58030" value="true"/>
+</engineerTo>
+<sourcePk>A230D525-D838-5B44-DE6F-769A78AF738F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1CF534BB-C298-DA4E-2C82-415FC470E4DE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05F8E8B5-13F6-3659-0102-C3D628347A07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
