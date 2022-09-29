@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="640F9CA4-B00D-5366-E054-34AE654656C7" name="CIDADE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>7F5C8693-B269-5355-671B-511F18F56117</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>F7CAE372-2FDD-E7B9-6584-CC3218867A02</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_municipio" id="358E3FD8-D0D8-0C38-5ED1-362B740FD401">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>B97AA95B-551D-0B5E-EEDC-7E4749FE9A52</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>B20AC5ED-7279-CCA8-C790-6ED91A50E861</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_UF" id="2BE82A1B-E953-7302-B83A-79E56835273A">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>BF0E7433-42EC-66FF-F3FB-1B2FACA22BBC</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>4BDB2715-2864-C7B0-A29D-B206F192F810</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07D9487F-9AEB-DFC4-1CD5-6F7B792391D8" referredColumn="CAC65645-CD8C-2432-86CD-8AA6A033FC83"/>
+</associations>
+</Column>
+<Column name="nm_municipio" id="2BA91D85-F0C7-A86E-E171-4455155D674C">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>F13CF602-F3AC-F659-EAD4-3557A9BD7673</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5B6DACB-88D2-9AE4-D9A7-71E7B6BB9B7F" name="CIDADE_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>8E3DE307-9723-09C8-B2CF-D4AB59EC83F0</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>5791FB8D-238A-5A98-33F1-AF106D7E64C3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358E3FD8-D0D8-0C38-5ED1-362B740FD401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A0AF14A-9266-309D-C0CF-4A77431264D6" name="CIDADE_ESTADO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>B700F446-7055-70E4-41D7-295E822CDCCF</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE82A1B-E953-7302-B83A-79E56835273A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

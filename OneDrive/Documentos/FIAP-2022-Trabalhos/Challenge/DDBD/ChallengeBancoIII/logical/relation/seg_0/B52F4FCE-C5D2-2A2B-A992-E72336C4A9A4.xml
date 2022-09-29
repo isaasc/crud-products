@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_RACA_ANIMAL_FK" directorySegmentName="seg_0" id="B52F4FCE-C5D2-2A2B-A992-E72336C4A9A4">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>497AEBA8-9CE9-958E-EFD7-F0520EF935D3</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<sourcePk>E2D7D06B-062C-6377-13F7-05ACF1BD16CA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9749C58D-7BF3-8E81-DF06-D8F13D3BEFE3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B541C248-FC13-420E-50BE-551425EFC501</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

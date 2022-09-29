@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6840CBD-DF0A-22B2-0344-A35917FE1FCC" name="TIPO ANIMAL">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>1CF534BB-C298-DA4E-2C82-415FC470E4DE</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tipo" id="7E9FC376-1716-7D29-E77C-8CDB55FC2A1C">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>CFCE117B-CAB7-D051-A6EB-AD81CC92DE2E</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm tipo" id="A6469EA8-E463-D057-A84E-0B9DC9410A44">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>416F4647-97BE-70CB-F240-91786C5B7867</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0535A34B-57DD-0C7A-CC75-C3E79EA30213" name="TIPO ANIMAL PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>A230D525-D838-5B44-DE6F-769A78AF738F</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E9FC376-1716-7D29-E77C-8CDB55FC2A1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36946B35-0C80-095F-A23B-AD3C4ADB3C91" name="TELEFONE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>232AA60C-E449-4B8C-8575-BEDB7A9E7248</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>9DF76E09-0D23-0C36-D92B-CE0D5F0E3FDB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tel" id="4CE28551-F050-1D50-2ED2-72147C2BC6B9">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>D75D4583-724C-88FF-7E24-8D5CCD23C091</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>6187DF44-018B-F5DB-17E0-8AFC47BBE808</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_tel" id="4DFBEE5E-FEB2-75FE-E793-3902B065E52E">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>9A2D30E1-A5C3-354E-55E5-DE88DB73ACAB</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>26C8C4CB-D028-9AA3-A619-E2E8EDADCE2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TELEFONE_id_tp_tel" id="F0E2B1CC-4810-37BF-F3F0-8749561AC464">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>0E24625F-F58A-9C98-055D-BF22D5411277</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>897C1CEB-0B1E-40A8-4CD7-A498FB520944</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE6F3925-5F84-65DD-8704-74FE74BA6147" referredColumn="64573411-503F-74C1-C970-EFFC83688C70"/>
+</associations>
+</Column>
+<Column name="ddd" id="249E4BF2-46E8-412C-5FB5-821FC074A6B8">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>1EE14562-AF88-9E6E-38FC-EAFE6E9C25EC</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>7ADFEF1B-4859-9E1F-49CE-C03BA5A38FF1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93605FF2-6943-434B-5516-3AF46F48C423" name="TELEFONE_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>77C16B4F-CDEA-D7F7-53D7-77BBE1C25779</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>EB2C7EC4-4FCA-6F86-6594-694FE74536BB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE28551-F050-1D50-2ED2-72147C2BC6B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B735FE21-31D7-7A38-7475-5CED9F2666A7" name="TELEFONE_num_tel_UN">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>638D332F-1A9D-8163-1C93-A8E50DE018EC</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>322A6B07-ACC3-6088-6CDF-004F3E096D71</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DFBEE5E-FEB2-75FE-E793-3902B065E52E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F59C3D8B-3E29-64FF-06BD-60800A0F8A60" name="TELEFONE_TIPO_TELEFONE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>CE73A370-0388-F6C3-0882-C5AB6F0BD0B0</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0E2B1CC-4810-37BF-F3F0-8749561AC464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

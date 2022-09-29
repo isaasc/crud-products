@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE6F3925-5F84-65DD-8704-74FE74BA6147" containerWithKeyObject="36946B35-0C80-095F-A23B-AD3C4ADB3C91" localFKIndex="F59C3D8B-3E29-64FF-06BD-60800A0F8A60" name="TELEFONE_TIPO_TELEFONE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>CE73A370-0388-F6C3-0882-C5AB6F0BD0B0</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>F59268BC-D0A5-6B69-F6A6-FC8A357DCC78</importedID>
+<referredTableLongName>TIPO_TELEFONE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D38AEF2-903C-07D4-5695-5CA875940D35</referredTableID>
+<keyObject>10A2A59C-32EE-DFC1-2B45-2E16EF0F089D</keyObject>
+<referredKeyID>10A2A59C-32EE-DFC1-2B45-2E16EF0F089D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_tp_tel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

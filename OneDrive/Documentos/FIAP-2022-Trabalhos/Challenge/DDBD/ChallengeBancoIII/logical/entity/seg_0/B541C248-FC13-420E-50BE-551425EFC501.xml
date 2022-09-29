@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B541C248-FC13-420E-50BE-551425EFC501" name="ANIMAL">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>340E7602-7A35-75FC-A2CB-5259B2E760CC</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id animal" id="752B3012-AC23-89F0-8ABC-B3AE9B28CB1F">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>75B64F3D-E980-DA8D-A1A9-048F5CDD7590</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm animal" id="96C6E02E-8763-AD1C-01DC-28B915F8B0E3">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>C1958DD3-A181-13F1-0B4B-51DC366B6E0C</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt nascimento" id="A24085E1-072A-4DEC-850C-92BDF0BD6119">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>725E2046-F3FB-91CF-1030-1672E5ABC588</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id cliente" id="89D47D91-E8B3-F96B-8A4A-35CD1A41D91C">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>F8C65E22-BDE8-A708-3DA6-928D9072D111</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>37BA1387-0E03-77C9-DA44-CF29BDA839F9</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>09176257-A541-59A0-5F6C-53B68A9EE63D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id raca" id="19817852-92EC-2325-B412-8DFF09B98A69">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>B52F4FCE-C5D2-2A2B-A992-E72336C4A9A4</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>7A3183D5-49FB-730C-5DBB-D66299231924</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>521084B4-FBFC-194A-47C3-EFA9141443F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id tipo" id="D2C78C09-4089-E69D-FB1A-D7E7DF3E1994">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>B52F4FCE-C5D2-2A2B-A992-E72336C4A9A4</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>82D4535F-0B2F-A7FC-37AD-A3E3B6F28DA4</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>0F3860BC-1E5B-984E-45A1-EFF896DD5987</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4ACC1133-798F-E1B3-6372-B8705FFEFA96" name="ANIMAL PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>CCEE8A18-2168-5433-6D42-0339AC84A7B7</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>752B3012-AC23-89F0-8ABC-B3AE9B28CB1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

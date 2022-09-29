@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FC36A45-D559-32D3-396B-DC749F493D64" name="CLIENTE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>58B26D7E-16E8-6720-D738-5FFE94BE328B</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>EEE6104F-8ED2-B984-8C76-9D625AF31564</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="8FE91367-F833-A453-A9FF-1B9CB27C295D">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>09176257-A541-59A0-5F6C-53B68A9EE63D</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>057AE32F-5917-41D7-F45B-FC68F4C0E790</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="6CEF6D5F-4089-1B09-FC7C-334C3E27B132">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>F4E9BBAD-9C5C-EFBB-614A-6F362514AA33</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>2C1E02E5-948C-712F-8AE7-FDB4A9B40A70</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE_id_tel" id="087B42DF-5DE8-951F-28D7-BC5FDD5A9E15">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>392C2CE6-C557-5CF9-15AB-BB49C1920912</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0F94B06-2CC0-C332-AC99-F6348EBA0DFB" referredColumn="4CE28551-F050-1D50-2ED2-72147C2BC6B9"/>
+</associations>
+</Column>
+<Column name="nome" id="0D1AB29C-58DB-9AF0-46C8-C61FEC8824F5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>FFE64FCE-B1CF-9686-842A-C29D4B1E9F84</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>A06C368E-19F2-F28C-A6CD-092E6DA1A310</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="9C3B9A82-B5E8-0878-4E0E-9967DEE9CBB4">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>B5299F31-B31C-E90D-E413-332F07EFD6A1</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>089941EB-8292-6AC4-93D3-E9B561A14423</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_mae" id="A5F91409-75A3-961F-8C58-C69CEC94F7AB">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>7A844D08-0E59-0B29-6735-5E91D5D41296</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>23BBF532-D165-69AA-E841-59A7936977DC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="936AE573-6F9A-3603-B430-80917F54E672">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>6C80FF17-B4A6-A8BC-1465-E5EE9136408E</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>D8EEC839-6D34-53ED-09EA-C69582DAA948</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rg" id="D034B7EA-2191-294F-D6BD-C669CF73DBF9">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>CA15265E-2CA6-12F4-A26E-E4283B554331</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>C37AFDC2-1754-E5A3-55BB-99EC8EFC6FE2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nmr_conta" id="098CDD90-DE20-1DD4-9949-13D27D041958">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>A6A5883A-2E9D-38D1-714E-4EBE386CC92A</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>8BD91B8E-C0DA-01FD-2E59-2DB3E1C58994</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_social" id="71BBDF9C-5150-C6EB-2786-B57BCDAAFF95">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>2EEE81EA-57B1-10BB-BDA2-1F83B63441F4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_CLIENTE_id_endereco" id="9C46A005-10ED-16A4-EC81-7CD43A367C96">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>2A94EACE-7451-DE32-C0B8-EEAA466971E3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93C9C31A-6027-8D8C-0103-2B24AB02FBFA" referredColumn="67F361E1-A5B4-1987-041B-168A5A19C257"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="946D6706-DF42-E97A-18AC-5C14C2F66CEF" name="CLIENTE_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>A00D5DCC-979B-3BC5-430D-A7430D186FEC</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>B12728BC-3121-AF20-8189-2CF2EFF7DAAB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FE91367-F833-A453-A9FF-1B9CB27C295D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE425FCB-6531-625D-8859-B3BCFF8A1536" name="CLIENTE_cpf_UN">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>8B77548C-45E3-C40A-F15E-107EE394EC8E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CEF6D5F-4089-1B09-FC7C-334C3E27B132"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EDB0B1E-47A6-5E16-7D92-8A136FBE09B5" name="CLIENTE__IDX">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>9505CFDA-C645-DE9A-3C40-442A1B4B4B33</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C46A005-10ED-16A4-EC81-7CD43A367C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D3E5144-CDE9-1B5A-ECDF-A2F655B73C9C" name="CLIENTE_TELEFONE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>A481E27B-66BA-3D66-395F-4A7BA0898C19</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="087B42DF-5DE8-951F-28D7-BC5FDD5A9E15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D855A93-5242-F19D-319B-37FE2ED9B77E" name="CLIENTE_ENDERECO_CLIENTE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>835807D0-ED9F-8498-D687-9A93246F457B</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C46A005-10ED-16A4-EC81-7CD43A367C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

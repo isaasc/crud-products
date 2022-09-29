@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6432157B-E771-8D7E-E632-029B640B3185" name="POUPANCA">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:52:09 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>1E4538AF-647B-06E3-D4C7-00947963116A</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contaPoupanca" id="9B59739A-928C-F3D5-8865-C128B518ED4D">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:52:09 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>57157EC5-CD50-935F-C935-FA8D483C4983</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="D25A2150-BC1B-AF0E-9C10-031E1914588D">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:52:09 UTC</createdTime>
+<generatorID>2AA5CA1B-CDAD-C2F4-04FF-B7F08EE7E6D0</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>40D02F61-A2F7-9672-787B-F57F381B461C</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>07D8BF8B-A018-AED5-C60B-BA04A0FA41C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1DADE61-EE84-FF41-11AA-F5D93A4B9CF4" name="POUPANCA PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:52:09 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>1637336D-0997-9447-810A-EC753645149B</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B59739A-928C-F3D5-8865-C128B518ED4D</attributeRef>
+<attributeRef>D25A2150-BC1B-AF0E-9C10-031E1914588D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

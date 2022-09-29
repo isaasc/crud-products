@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBCBFEC0-5DD4-833B-79CF-19027B7E5D5F" containerWithKeyObject="5044B40B-873A-CDC1-E95F-1F7C42EC6627" localFKIndex="BDF68F1E-100E-F6F1-240E-3156BFAFA385" name="BAIRRO_CIDADE_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>8A520427-5F82-C098-A1B7-74BB951A2B58</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>F18D5883-BC4C-78EA-700F-830FCEC1CF2B</importedID>
+<referredTableLongName>CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>640F9CA4-B00D-5366-E054-34AE654656C7</referredTableID>
+<keyObject>D5B6DACB-88D2-9AE4-D9A7-71E7B6BB9B7F</keyObject>
+<referredKeyID>D5B6DACB-88D2-9AE4-D9A7-71E7B6BB9B7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_municipio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34E4E770-9DD1-95A7-A324-FE1CDECFE3D3" name="PRODUTO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>8212D066-14E5-988A-D473-D6533C245423</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id produto" id="07D8BF8B-A018-AED5-C60B-BA04A0FA41C7">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>86E4354E-9A8C-14D5-1D4F-6974B5A36D6E</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm produto" id="D810EB35-F30A-FD8A-AA95-51522E0DE510">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>40D838C3-4A68-D617-BCD1-75A35BA941C7</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl unitario" id="63FFF649-7A6A-F264-71F1-34F93A3977A5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>A152E8C7-ADD6-18F6-D458-7639CF00C412</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id unidade" id="34B09EF9-3DC2-A1DA-4D5B-3C613A78B99B">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>F8BD16D4-EC72-77CC-270F-7E26C4E9E398</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>BD20766E-446C-7A5A-19C8-931C7185091F</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>D0DEFEBD-C429-54EA-6DC6-EAB67B4733B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id status" id="36AF6B5D-8E1D-4E41-F3CB-4D36FA00F35C">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>8775DA62-A4C2-A574-58AD-EFA9F9800771</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>D185042E-82D5-D10A-A4B1-BB5E746D564C</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>D5CFA89B-2C42-1575-3BD5-A299AA69A78C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF4E30C8-E9CE-4F17-8A4F-D929F17C14B6" name="PRODUTO PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>9F3440AA-8FBF-F0BD-118C-0BB45097F208</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07D8BF8B-A018-AED5-C60B-BA04A0FA41C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

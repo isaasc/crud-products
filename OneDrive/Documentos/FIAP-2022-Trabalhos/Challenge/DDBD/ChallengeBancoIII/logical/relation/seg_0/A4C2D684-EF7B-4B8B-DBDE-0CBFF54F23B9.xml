@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA_PJ_FK" directorySegmentName="seg_0" id="A4C2D684-EF7B-4B8B-DBDE-0CBFF54F23B9">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>EA34E6F4-EB4D-E085-F635-DA1F9D3464AD</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<sourcePk>ACC62B6E-3A6D-0FE1-AC41-EA69944324A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F055ACD-AC75-8796-5F21-8A47885F7839</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B0ED0DF-F43D-09EE-212E-39AAE187FC9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

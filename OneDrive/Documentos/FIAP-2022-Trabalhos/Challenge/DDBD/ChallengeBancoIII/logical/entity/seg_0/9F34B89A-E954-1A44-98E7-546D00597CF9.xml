@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F34B89A-E954-1A44-98E7-546D00597CF9" name="RESERVA PRODUTOS">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>D263792C-7113-930E-448E-09E67DE537AF</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id reserva" id="5CDC1A9D-5C7A-6BE5-DA84-D2F3EDB6E864">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>4B828995-1091-A901-ACE8-CB3FAF2DAE44</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>F93C4FF7-BAB0-1090-FD9F-5981D0F8CAA1</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>A5DF9FE7-78F0-9F29-CE4F-A3BF6AD5BC8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id produto" id="3A7869B8-702C-E107-120C-27E786695B66">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<generatorID>08453B58-B636-75BC-9303-13F1D9FDE0F9</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>BF0F73CD-3D8E-3A95-1765-19B34690B64B</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<referedAttribute>07D8BF8B-A018-AED5-C60B-BA04A0FA41C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt" id="89419B09-2BE6-0325-A23B-F36578B87F9A">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>1D1EE065-16A0-9B05-1999-B8D4A0160F78</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8977718C-AA5B-4BB6-2D04-44E18EFE9D0A" name="RESERVA PRODUTOS PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:43:50 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>4257BFEC-2B65-BE50-8107-36785C23BBE1</importedID>
+<engineerTo>
+<item key="CB372386-433C-731F-8B18-A7EE0C6A07EC" value="true"/>
+<item key="A61C5A9F-DBBD-B807-369C-484C7278767E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A7869B8-702C-E107-120C-27E786695B66</attributeRef>
+<attributeRef>5CDC1A9D-5C7A-6BE5-DA84-D2F3EDB6E864</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

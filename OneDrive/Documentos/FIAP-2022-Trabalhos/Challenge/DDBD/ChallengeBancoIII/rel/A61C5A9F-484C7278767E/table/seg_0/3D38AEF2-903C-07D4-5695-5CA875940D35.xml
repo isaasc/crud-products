@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D38AEF2-903C-07D4-5695-5CA875940D35" name="TIPO_TELEFONE">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>C8F1CE84-F16C-E25F-5F02-EE68B073A07C</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>22F97EFE-B0B8-611C-1749-BC4B21DF1CBB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tp_tel" id="64573411-503F-74C1-C970-EFFC83688C70">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>20161782-F433-FFE7-0153-0A0C165578D7</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>E2C43D52-F8EF-FB3B-8EE4-E78AF4F7C93D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tp_tel" id="64BC0470-B897-7847-7E59-9FE28FD2F8FA">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>82EFA50A-CDC5-42D4-BCA2-C21BD699CE08</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>64F28584-BE78-A540-4A8B-EEC321874A07</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10A2A59C-32EE-DFC1-2B45-2E16EF0F089D" name="TIPO_TELEFONE_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>3B00124A-75ED-18E4-9D8F-13348F5DAFA5</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>01D731FC-88C2-6F88-9043-5D1854B90F25</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64573411-503F-74C1-C970-EFFC83688C70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

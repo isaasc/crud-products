@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49A7DCC5-BC68-78AD-E73E-012D01CA30C3" containerWithKeyObject="7B1C01BB-02C1-C39C-B63D-ECB88A36B3B0" localFKIndex="7B135857-5EDF-78D6-173A-DFFFABC6AD48" name="FINANCIAMENTO_PRODUTO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>92F0B88C-1252-DBC3-B11C-1B7369B7F81D</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>F27DC933-E15E-36E3-A38C-92D88D724ADA</importedID>
+<referredTableLongName>PRODUTO</referredTableLongName>
+<arc>FB91667C-52EF-9C65-76F8-A3778A3C1418</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C54CE59-803B-E92E-26D7-89B8D7780552</referredTableID>
+<keyObject>E4909164-C280-3455-DBF7-6884B88267E0</keyObject>
+<referredKeyID>E4909164-C280-3455-DBF7-6884B88267E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

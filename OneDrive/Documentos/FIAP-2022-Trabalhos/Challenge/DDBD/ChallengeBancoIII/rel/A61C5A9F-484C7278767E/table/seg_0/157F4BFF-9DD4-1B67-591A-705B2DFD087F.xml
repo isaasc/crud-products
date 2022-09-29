@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="157F4BFF-9DD4-1B67-591A-705B2DFD087F" name="CARTAO">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>429ABC0A-B4BD-9769-DE3E-227FC9C3479E</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>C2294191-F4D4-C018-D8DA-7CFA7D0D2757</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cartao" id="36072914-C24B-E8E1-F55B-6BF4EEB53FA2">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>CCB826D3-9A52-3F52-2EA9-87A38F19C1EB</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>4122DA8E-6AD6-422C-66F3-8DB3A2042E5D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUTO_id_produto" id="C74BF326-B144-3522-1D7B-0B4DBB1B1944">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>B2990EB2-E98D-EDD9-369E-71C998A562DB</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>0CF90684-DA8F-A7E0-7D5C-2C24881085F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6541E194-D675-C7F4-5273-8E1708C02470" referredColumn="BB0E034B-15A0-C551-47F9-990AF54804B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99AE377D-D831-89DB-DFE5-35C75E26D5FB" name="CARTAO_PK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>AC97FF26-B25F-1D96-2341-20F4266B7312</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<importedID>2DF11352-04DF-E907-7CBF-896A4E8CE7E8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36072914-C24B-E8E1-F55B-6BF4EEB53FA2"/>
+<colUsage columnID="C74BF326-B144-3522-1D7B-0B4DBB1B1944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCB4FEC-8071-7D34-2937-DC45526C19BC" name="CARTAO_PRODUTO_FK">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:49:40 UTC</createdTime>
+<generatorID>0DBA45B9-3A5E-A07A-9E4D-C1D950DE963D</generatorID>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C74BF326-B144-3522-1D7B-0B4DBB1B1944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

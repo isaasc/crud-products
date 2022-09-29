@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ChallengeBancoIII" id="8695AB7D-362C-3D30-1C02-CCFFF7E28327" version="3.5">
+<createdBy>isabe</createdBy>
+<createdTime>2022-09-29 18:40:46 UTC</createdTime>
+<ownerDesignName>ChallengeBancoIII</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8695AB7D-362C-3D30-1C02-CCFFF7E28327</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D8F48A04-26B9-6EBB-F5E2-E2E35E00CFE8">
+<designStoragePath>C:\Users\isabe\OneDrive\Documentos\FIAP-2022-Trabalhos\Checkpoint\DDBD\checkpointIV</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="826FCED5-BD86-F11B-808C-0074B6606113">
+<designStoragePath>C:\Users\isabe\Downloads\Challenge1\challenge1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="97AC45EE-7912-914B-5DF7-12D42683FB2C">
+<designStoragePath>C:\Users\isabe\Downloads\Challenge2\challenge2</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
