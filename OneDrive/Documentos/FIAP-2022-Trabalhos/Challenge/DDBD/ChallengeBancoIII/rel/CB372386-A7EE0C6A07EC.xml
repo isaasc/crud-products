@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1(2)" id="CB372386-433C-731F-8B18-A7EE0C6A07EC" mainViewID="A61A17D2-918C-C0B3-9D64-ADA4CA653EC9">
-<createdBy>isabe</createdBy>
-<createdTime>2022-09-29 20:16:01 UTC</createdTime>
-<ownerDesignName>ChallengeBancoIII</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>
