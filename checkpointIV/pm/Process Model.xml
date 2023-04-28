@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="ADCE43CF-41BE-A49C-F8D5-3D9E879741D2">
-<createdBy>isabe</createdBy>
-<createdTime>2022-08-23 12:47:40 UTC</createdTime>
-<ownerDesignName>checkpointIV</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
